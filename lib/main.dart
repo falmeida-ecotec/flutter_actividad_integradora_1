@@ -114,11 +114,11 @@ class _MyHomePageState extends State<MyHomePage> {
               onPressed: () {
                  ScaffoldMessenger.of(context).showSnackBar(
                   const SnackBar(
-                    content: Text('Prueba realizada con éxito.'),
+                    content: Text('La curiosidad mató al gato 😾'),
                   ),
                 );
               },
-              child: const Text('Tócame 😎'),
+              child: const Text('No me toques 😡'),
             ),
             const SizedBox(height: 10),
             ElevatedButton(
