@@ -1,16 +1,10 @@
-# flutter_actividad_integradora_1
+# Flutter Actividad Integradora 1
 
-A new Flutter project.
+## Descripción
+Aplicación desarrollada en Flutter como parte de la actividad integradora.
+Incluye modificaciones básicas de interfaz, un SnackBar funcional y navegación
+a una segunda pantalla utilizando Navigator.push y Navigator.pop.
 
-## Getting Started
+## Captura de la aplicación en ejecución
+![Captura de la app](captura_app.png)
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
