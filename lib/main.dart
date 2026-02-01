@@ -104,7 +104,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // wireframe for each widget.
           mainAxisAlignment: .center,
           children: [
-            const Text('Bienvenido a mi actividad integradora en Flutter'),
+            const Text('Por favor... no toques el botón de abajo'),
             Text(
               '$_counter',
               style: Theme.of(context).textTheme.headlineMedium,
