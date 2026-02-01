@@ -131,7 +131,22 @@ class _MyHomePageState extends State<MyHomePage> {
                  );
                },
               child: const Text('Siguiente ▶️'),
-            ),       
+            ),
+            ExpansionTile(
+               title: const Text('Información de la aplicación'),
+               leading: const Icon(Icons.info_outline),
+               children: const [
+                Padding(
+                  padding: EdgeInsets.all(16.0),
+                  child: Text(
+                    'Esta aplicación fue desarrollada en Flutter como parte de '
+                    'la actividad integradora e incluye navegación, SnackBar '
+                    'y manejo de estado.',
+                    textAlign: TextAlign.center,
+                  ),
+                ),
+               ],   
+            ),
           ],
         ),
       ),
